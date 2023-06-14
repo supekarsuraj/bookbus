@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+      
+    </head>
+    <style>
+      body{
+        color: aliceblue;
+       background-color: rgb(237, 83, 83); 
+      }
+      .c1{
+        color:white;
+        margin-left: 10px;
+        margin-top: 50px;
+      }
+      .c2,img{
+        width: 50px ;
+        height: 50px;
+        border: 1px;
+        border-bottom-right-radius:40% ;
+        margin-left: 10px;
+      }
+      #d1{
+        margin-left: 300px;
+      }
+      #result,span{
+        margin-left: 20px;
+      }
+      @media screen and (max-width: 768px) {
+        .c1{
+          display: none;
+        }
+      }
+      
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        /* Styles for screens between 769px and 1024px wide */
+      }
+      
+      @media screen and (min-width: 1025px) {
+        /* Styles for screens larger than 1025px wide */
+      }
+      
+    </style>
+    <body>
+        
+        <div class="container">
+          
+            <span class=".c2"><img src="/main.png" alt=""></span>
+            <span class="c2" style="border-bottom: 1px white;"><strong>BUS TICKET</strong></span>
+            <SPan class="c2"><STrong>rYDE</STrong></SPan>
+            <SPan class="c2"><STROng>redRail <sup><strong>new</strong></sup></STROng></SPan>
+       
+              
+            <div style="float:right">
+            <span class="c1">Help</span>
+            <span class="c1">print/SMS</span>
+            <span class="c1">Cancle Ticket</span>
+            </div>
+            
+       
+      <h1 id="d1"><strong>Bus Ticket  Booking Online</strong></h1>
+      
+        
+        <div class="form-group">
+            <label for="">Your Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter a Your Name">
+        </div>
+               
+            <div class="form-group">
+                <label for="">Mobile Number:</label>
+                <input type="text" class="form-control" id="mobile" placeholder="91+">
+            </div>   
+            
+
+            
+              <div class="form-group">
+                <label for="">Adhar card:</label>
+                <input type="text" class="form-control" id="adhar" placeholder="please Enter your adhar card number">
+              </div>           
+      
+      
+          <span class="to">
+            <span class="form-group">
+                <label for="movie">to</label>
+                <select id="tocity" required style="color: black;">
+                  <option value="">Select city</option>
+                  <option value="beed">beed</option>
+                  <option value="pune">pune</option>
+                  <option value="nagar">nagar</option>
+                  <option value="jalna">jalna</option>
+                </select>
+          </span>
+          <span class="to">
+            <span class="form-group">
+                <label for="movie">from</label>
+                <select id="fromcity" required style="color: black;">
+                  <option value="">Select city</option>
+                  <option value="beed">beed</option>
+                  <option value="pune">pune</option>
+                  <option value="nagar">nagar</option>
+                  <option value="jalna">jalna</option>
+                </select>
+          </span><span > <strong>Date:</strong><input type="date" name="" id="date" placeholder="enter your date" style="color: black;"></span><br>
+         
+
+      
+      <button type="submit" class="btn btn-primary" onclick="fun1()">Submit</button>
+      </form>
+        
+      <div id="result" style="color: rgb(57, 52, 52);">
+        
+      </div>
+      <script src="travalesbookk.js"></script>
+      
+    
+        
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
